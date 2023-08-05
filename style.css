@@ -1,0 +1,140 @@
+
+.header{
+    display: flex;
+    flex: row;
+    align-items: center;
+}
+.logo {
+    height:"116px"; 
+    width:"100px";
+    border-radius: 50%; 
+    box-shadow: 1px 3px 3px 2px #272626;
+}
+.navbar{
+    background-color: #181717;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+.nav-item{
+    color: rgb(241, 235, 201) !important;
+}
+
+.headcontainer {
+display: flex;
+justify-content: center;
+min-height: 500px;
+margin: auto;
+padding: 40px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+body {
+    background-image: url(assets/black5.avif);
+    background-size: 100% ;
+    background-repeat:repeat-y;
+}
+.header {
+    display: flex;
+    flex: row;
+}
+
+#heading {
+    align-items: center;
+}
+
+.team{
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px 15px 20px;
+    background: rgb(241, 239, 232);
+    width: 75%;
+}
+.team {
+    transition: 1s ease;
+    }
+    
+.team:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    }
+
+.teampicP{
+    background: rgb(241, 239, 232);
+    padding: 10px;
+    margin-bottom: 13px;
+    display: inline-block;
+    width: 80%;
+    transition: all 0.5s ease 0s;
+}
+
+.teampic{
+    background:rgb(241, 239, 232);
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 90%;
+    transition: all 0.5s ease 0s;
+}
+
+
+
+.teampic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    -moz-box-shadow: 0px 6px 5px #837f7f;
+  -webkit-box-shadow: 0px 6px 5px #837f7f;
+  box-shadow: 0px 6px 5px #837f7f;
+}
+.teampicP img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 1px 2px 4px 4px rgb(102, 100, 100);
+}
+
+.title{
+    font-weight: 600;
+    color: #361d04;
+    display: block;
+    font-size: 25px;
+    margin: 0 0 4px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.post{
+    color: #080808;
+    text-transform: capitalize;
+    display: block;
+    font-size: 15px;
+}
+
+/*.Media {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px auto !important;
+
+    width: 100%;
+  }
+  .mediachild {
+    display: flex;
+    justify-content: start;
+    column-gap: 0px !important;
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+  }
+  .mediachild > img {
+    width: 100% !important;
+    margin: 0px !important;
+  }
+  .mediatext {
+    position: absolute;
+    width: 70%;
+    margin-top: 0px !important;
+    padding: 12px !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }*/
