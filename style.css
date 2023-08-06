@@ -44,11 +44,16 @@ body {
 }
 
 .team{
-    border-radius: 30px;
+    border-left: 1px solid rgb(229 220 154);
+    border-right: 1px dashed rgb(229 220 154);
+    border-top: 1px dashed rgb(229 220 154);
+    border-bottom: 1px dashed rgb(229 220 154);
+    border-radius: 10px;
+    background-color: #070707;
     text-align: center;
     padding: 20px 15px 20px;
-    background: rgb(241, 239, 232);
     width: 75%;
+    
 }
 .team {
     transition: 1s ease;
@@ -62,7 +67,6 @@ body {
     }
 
 .teampicP{
-    background: rgb(241, 239, 232);
     padding: 10px;
     margin-bottom: 13px;
     display: inline-block;
@@ -71,7 +75,6 @@ body {
 }
 
 .teampic{
-    background:rgb(241, 239, 232);
     padding: 10px;
     margin-bottom: 10px;
     display: inline-block;
@@ -85,20 +88,18 @@ body {
     width: 100%;
     height: auto;
     border-radius: 50%;
-    -moz-box-shadow: 0px 6px 5px #837f7f;
-  -webkit-box-shadow: 0px 6px 5px #837f7f;
-  box-shadow: 0px 6px 5px #837f7f;
+  box-shadow: 0px 4px 3px #6d5f4a;
 }
 .teampicP img{
     width: 100%;
     height: auto;
     border-radius: 50%;
-    box-shadow: 1px 2px 4px 4px rgb(102, 100, 100);
+    box-shadow: 0px 4px 3px #6d5f4a;
 }
 
 .title{
     font-weight: 600;
-    color: #361d04;
+    color: #fcc58f;
     display: block;
     font-size: 25px;
     margin: 0 0 4px 0;
@@ -106,35 +107,9 @@ body {
 }
 
 .post{
-    color: #080808;
+    color: #f5cca4;
     text-transform: capitalize;
     display: block;
     font-size: 15px;
 }
 
-/*.Media {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin: 0px auto !important;
-
-    width: 100%;
-  }
-  .mediachild {
-    display: flex;
-    justify-content: start;
-    column-gap: 0px !important;
-    flex-direction: column;
-    align-items: center;
-    width: 100% !important;
-  }
-  .mediachild > img {
-    width: 100% !important;
-    margin: 0px !important;
-  }
-  .mediatext {
-    position: absolute;
-    width: 70%;
-    margin-top: 0px !important;
-    padding: 12px !important;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  }*/
