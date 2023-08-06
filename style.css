@@ -44,10 +44,10 @@ body {
 }
 
 .team{
-    border-left: 1px solid rgb(229 220 154);
-    border-right: 1px dashed rgb(229 220 154);
-    border-top: 1px dashed rgb(229 220 154);
-    border-bottom: 1px dashed rgb(229 220 154);
+    border-left: 1px solid rgb(230, 222, 167);
+    border-right: 1px dashed rgb(230, 222, 167);
+    border-top: 1px dashed rgb(230, 222, 167);
+    border-bottom: 1px dashed rgb(230, 222, 167);
     border-radius: 10px;
     background-color: #070707;
     text-align: center;
